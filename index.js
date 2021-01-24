@@ -39,4 +39,4 @@ app.use(
   })
 );
 
-app.listen(443, () => console.log("server started on port 8000"));
+app.listen(process.env.PORT || 3000, () => console.log("server started"));
